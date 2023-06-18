@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HOG ARCHIVE</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            background-image: url(hogbg.gif);
+        }
+
+        .container {
+            text-align: center;
+            color: white;
+        }
+
+        .image-container {
+            position: relative;
+            display: inline-block;
+            padding: 20px;
+        }
+
+        .image-container::before {
+            content: '';
+            position: absolute;
+            top: -10px;
+            left: -10px;
+            right: -10px;
+            bottom: -10px;
+            border: 1px solid black;
+            clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+        }
+
+        .image-container img {
+            display: block;
+            width: 400px;
+        }
+
+        .content {
+            font-size: 20px;
+            max-width: 800px;
+            margin-right: auto;
+            text-align: left;
+            word-wrap: break-word;
+        }
+
+        .image-caption {
+            text-align: center;
+            color: white;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 0;
+        }
+
+        .button {
+            padding: 10px 20px;
+            background-color: #ff80ab;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Welcome to The Hog Official Archive</h1>
+        <div class="image-container">
+            <img src="hog1.png" alt="Image">
+            <p class="image-caption">art drawn by lefanartist#5652</p>
+        </div>
+        <p class="content">Welcome to The Hog Official Archive, the dedicated repository for all things related to the
+            cherished cartoon character, The Hog! My mission is to honor the legacy of this lost show by meticulously
+            archiving every bit of information I can find. Dive into a treasure trove of nostalgia as I piece together
+            the fragments of The Hog's world, bringing the joy and laughter of this beloved character back to
+            life.<br><br>
+
+            The Hog, a big green man with a penchant for rolling like a bowling ball, captured my heart with his
+            larger-than-life presence. Weighing in at a whopping 700 pounds, this Mexican-born character, sporting an
+            army hat and glasses, brought countless smiles to my face. I miss The Hog and all the hilarious moments he
+            shared with his sister, the Hogette. So, welcome to The Hog Official Archive! Join me as I embark on a
+            personal journey of rediscovery, preserving the memory of The Hog and celebrating the joy he brought into
+            our lives.<br><br>
+
+            The Hog, as we all know, comes from the television show shown from 1920 named "The Hog". Since 1937, roughly
+            around World War II, all footage of The Hog has weant missing and nobody has made an attempt to rediscover
+            it. We hope you'll be able to join us in our effort to re-archive this beloved character's content.</p>
+
+            <br><br><br><br>
+
+            <div class="button-container">
+                <a href="page1.html" class="button">Who is The Hog?</a>
+                <a href="page2.html" class="button">What was the show about?</a>
+                <a href="page3.html" class="button">Why did the show "The Hog" become lost media?</a>
+                <a href="page4.html" class="button">Who created "The Hog"?</a>
+                <a href="page5.html" class="button">Who were the voice actors?</a>
+                <a href="page6.html" class="button">What was the backstory?</a>
+                <a href="page7.html" class="button">Contact</a>
+                <a href="index.html" class="button">Home</a>
+            </div>
+    </div>
+</body>
+
+</html>

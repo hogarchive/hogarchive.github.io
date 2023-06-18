@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HOG ARCHIVE</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            background-image: url(hogbg.gif);
+        }
+
+        .container {
+            text-align: center;
+            color: white;
+        }
+
+        .image-container {
+            float: right;
+            padding: 20px;
+            text-align: right;
+        }
+
+        .image-container::before {
+            content: '';
+            position: absolute;
+            top: -10px;
+            left: -10px;
+            right: -10px;
+            bottom: -10px;
+            border: 1px solid black;
+            clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+        }
+
+        .image-container img {
+            display: block;
+            width: 400px;
+        }
+
+        .content {
+            font-size: 20px;
+            max-width: 600px;
+            margin: 0 0 0 20px;
+            text-align: left;
+            word-wrap: break-word;
+        }
+
+        .image-caption {
+            text-align: center;
+            color: white;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 0;
+        }
+
+        .button {
+            padding: 10px 20px;
+            background-color: #ff80ab;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Contact</h1>
+
+        <p class="content">Contact info (41.8kb) <button
+                onclick="window.location.href='https://github.com/iamtraction/ZOD/raw/master/42.zip'">Click
+                Me</button><br><br>Archive location <button
+                onclick="window.location.href='https://www.google.co.uk/maps/@64.5773583,-165.6090206,15.04z?entry=ttu'">Click
+                Me</button><br><br>Support contact <button
+                onclick="window.location.href='https://shorturl.at/gmqFL'">Click
+                Me</button></p>
+
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+        <div class="button-container">
+            <a href="page1.html" class="button">Who is The Hog?</a>
+            <a href="page2.html" class="button">What was the show about?</a>
+            <a href="page3.html" class="button">Why did the show "The Hog" become lost media?</a>
+            <a href="page4.html" class="button">Who created "The Hog"?</a>
+            <a href="page5.html" class="button">Who were the voice actors?</a>
+            <a href="page6.html" class="button">What was the backstory?</a>
+            <a href="page7.html" class="button">Contact</a>
+            <a href="index.html" class="button">Home</a>
+        </div>
+    </div>
+</body>
+
+</html>
